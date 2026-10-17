@@ -1,0 +1,9 @@
+.data
+mensagem: .asciiz "Ola, mundo!"
+valor: .word 10
+.text
+main:
+li $v0, 10
+li $t0, 5
+add $t1, $t0, $t0
+syscall

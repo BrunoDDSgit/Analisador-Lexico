@@ -1,0 +1,11 @@
+.data
+texto1: .asciiz "Linha normal"
+texto2: .asciiz "Linha\nNova"
+texto3: .asciiz "Tab\tTeste"
+texto4: .asciiz "Aspas: \"texto\""
+texto5: .asciiz "Barra: \\"
+texto6: .asciiz "Nulo\0"
+.text
+main:
+li $v0, 10
+syscall

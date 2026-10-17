@@ -1,0 +1,6 @@
+.text
+main:
+li $t0, 0xG1
+li $t1, 12abc
+li $t2, -0xG5
+syscall

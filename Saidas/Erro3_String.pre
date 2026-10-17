@@ -1,0 +1,8 @@
+.data
+mensagem1: .asciiz "Mensagem sem fechamento
+mensagem2: .asciiz "Mensagem com escape \q"
+mensagem3: .asciiz "Outra mensagem
+.text
+main:
+li $v0, 10
+syscall

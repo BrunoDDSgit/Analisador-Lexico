@@ -1,0 +1,13 @@
+.data
+valor: .word 100
+
+.text
+main:
+lw $t0, 0($sp)
+lw $t1, 4($sp)
+sw $t0, 8($sp)
+lh $t2, 12($sp)
+sh $t2, 16($sp)
+lb $t3, 20($sp)
+sb $t3, 24($sp)
+syscall
